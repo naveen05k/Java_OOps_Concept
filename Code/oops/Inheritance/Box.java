@@ -7,6 +7,7 @@ public class Box {
 	int w;
 	
 	public Box() {
+		super();
 		this.l = 1;
 		this.h = 1;
 		this.w = 1;

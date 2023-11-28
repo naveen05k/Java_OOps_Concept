@@ -11,7 +11,10 @@ public class BoxWeight extends Box {
 		super(l, h, w);// call the parent class constructor
 		// used to initialise in parent class
 		this.weigth = weigth;
+		super.infoDisplay();
 	}
 
-	
+	void weigh() {
+		System.out.println("The weight is 5u58");
+	}
 }
