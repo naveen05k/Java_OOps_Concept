@@ -19,4 +19,7 @@ public class Human {
 		this.salary = salary;
 	}
 
+	static void display() {
+		System.out.println("Display");
+	}
 }
