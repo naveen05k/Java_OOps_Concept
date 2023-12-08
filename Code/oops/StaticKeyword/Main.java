@@ -9,7 +9,13 @@ public class Main {
 
 		System.out.println(naveen.no);
 		welcome();
-		
+		run();
+
+	}
+
+	static void run() {
+		System.out.println("run");
+		welcome();
 	}
 
 	static void welcome() { // with out creating instance of class;
@@ -17,13 +23,12 @@ public class Main {
 		Main obj = new Main();
 		obj.greeting();
 	}
-	
-	
+
 	void fun() {
 		greeting();
 	}
 
-	void greeting() {////  belong to instance of object 
+	void greeting() {//// belong to instance of object
 		System.out.println("Non static ");
 	}
 
